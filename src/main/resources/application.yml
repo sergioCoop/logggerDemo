@@ -1,0 +1,15 @@
+server:
+  port: 9000
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sergiob
+    username: sergiob
+    password: sergioUnix1 
+    continue-on-error: true
+  jpa: 
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: false
+    hibernate: 
+      ddl-auto: create
+      
